@@ -54,7 +54,6 @@ exports.getSignup = (req, res) => {
   res.render("auth/signup", {
     path: "/auth",
     pageTitle: "ثبت نام",
-    isAuthenticated: false,
   });
 };
 
